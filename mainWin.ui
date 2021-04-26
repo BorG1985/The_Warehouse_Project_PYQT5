@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1138</width>
+    <height>778</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow{
+background:red;
+color:red;
+}
+
+#TabContainer{
+color:red;
+background:red;
+border: red;
+}
+
+#Employees{
+color:red;
+background:red;
+border:red;
+}
+#Products{
+color:red;
+background:red;
+border:red;
+}
+
+
+#headerFrame
+{
+background: black;
+border-radius: 30px;
+}
+
+#frame
+{
+background: red;
+border-radius: 30px;
+}
+#labelHead{
+color:white;
+}
+
+#label{
+color:white;
+}
+
+#label_2{
+color:white;
+}
+
+#line_username{
+border:none;
+background:transparent;
+color: white;
+border-bottom: 2px solid white;
+}
+
+#line_password{
+border:none;
+background:transparent;
+color: white;
+border-bottom: 2px solid white;
+}
+
+#ispisBtn{
+border:2px solid white;
+background:transparent;
+color:white;
+border-radius: 30px;
+}
+
+#ispisBtn:hover{
+border:2px solid white;
+background:white;
+color:red;
+}
+
+#changeEmpInfo{
+border:2px solid white;
+background:transparent;
+color:white;
+border-radius: 30px;
+}
+
+#changeEmpInfo:hover{
+border:2px solid white;
+background:white;
+color:red;
+}
+
+#deleteEmpInfo{
+border:2px solid white;
+background:transparent;
+color:white;
+border-radius: 30px;
+}
+
+#deleteEmpInfo:hover{
+border:2px solid white;
+background:white;
+color:red;
+}
+
+#enterNewE{
+border:2px solid white;
+background:transparent;
+color:white;
+border-radius: 30px;
+}
+
+#enterNewE:hover{
+border:2px solid white;
+background:white;
+color:red;
+}
+
+#pushButton_close{
+border:2px solid white;
+background:transparent;
+color:white;
+border-radius: 30px;
+}
+
+#pushButton_close:hover{
+border:2px solid white;
+background:white;
+color:red;
+}
+
+#ispisBtn_2{
+border:2px solid white;
+background:transparent;
+color:white;
+border-radius: 30px;
+}
+
+#ispisBtn_2:hover{
+border:2px solid white;
+background:white;
+color:red;
+}
+
+#enterNewP_2{
+border:2px solid white;
+background:transparent;
+color:white;
+border-radius: 30px;
+}
+
+#enterNewP_2:hover{
+border:2px solid white;
+background:white;
+color:red;
+}
+
+#changeProductInfo_2{
+border:2px solid white;
+background:transparent;
+color:white;
+border-radius: 30px;
+}
+
+#changeProductInfo_2:hover{
+border:2px solid white;
+background:white;
+color:red;
+}
+
+#deleteProInfo_2{
+border:2px solid white;
+background:transparent;
+color:white;
+border-radius: 30px;
+}
+
+#deleteProInfo_2:hover{
+border:2px solid white;
+background:white;
+color:red;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="TabContainer">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>1101</width>
+      <height>631</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Aero</family>
+      <pointsize>12</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="Employees">
+     <attribute name="title">
+      <string>Employees</string>
+     </attribute>
+     <widget class="QPushButton" name="ispisBtn">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>20</y>
+        <width>171</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Aero</family>
+        <pointsize>10</pointsize>
+        <weight>50</weight>
+        <italic>true</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>List Employees</string>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="tabela_ispis">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>100</y>
+        <width>1051</width>
+        <height>491</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Aero</family>
+        <italic>true</italic>
+       </font>
+      </property>
+      <property name="rowCount">
+       <number>50</number>
+      </property>
+      <property name="columnCount">
+       <number>8</number>
+      </property>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <column>
+       <property name="text">
+        <string>ID</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Name</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Last name</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>City - address</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Sector</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>ID Permision</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Username</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Password</string>
+       </property>
+      </column>
+     </widget>
+     <widget class="QPushButton" name="enterNewE">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>20</y>
+        <width>191</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Aero</family>
+        <pointsize>10</pointsize>
+        <weight>50</weight>
+        <italic>true</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Enter new Employee</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="changeEmpInfo">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>20</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Aero</family>
+        <pointsize>10</pointsize>
+        <weight>50</weight>
+        <italic>true</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Change Employee info</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="deleteEmpInfo">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>20</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Aero</family>
+        <pointsize>10</pointsize>
+        <weight>50</weight>
+        <italic>true</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Delete Employee info</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Products">
+     <attribute name="title">
+      <string>Products</string>
+     </attribute>
+     <widget class="QTableWidget" name="tabela_ispis2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>100</y>
+        <width>1051</width>
+        <height>491</height>
+       </rect>
+      </property>
+      <property name="rowCount">
+       <number>50</number>
+      </property>
+      <property name="columnCount">
+       <number>7</number>
+      </property>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <column>
+       <property name="text">
+        <string>ID</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Name</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Product type ID</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Code</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Quantity</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>ID Supplier</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Price</string>
+       </property>
+      </column>
+     </widget>
+     <widget class="QPushButton" name="ispisBtn_2">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>20</y>
+        <width>171</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Aero</family>
+        <pointsize>10</pointsize>
+        <weight>50</weight>
+        <italic>true</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>List Products</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="changeProductInfo_2">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>20</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Aero</family>
+        <pointsize>10</pointsize>
+        <weight>50</weight>
+        <italic>true</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Change product info</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="enterNewP_2">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>20</y>
+        <width>191</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Aero</family>
+        <pointsize>10</pointsize>
+        <weight>50</weight>
+        <italic>true</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Enter new product</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="deleteProInfo_2">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>20</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Aero</family>
+        <pointsize>10</pointsize>
+        <weight>50</weight>
+        <italic>true</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Delete product info</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Suppliers</string>
+     </attribute>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButton_close">
+    <property name="geometry">
+     <rect>
+      <x>970</x>
+      <y>670</y>
+      <width>141</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Aero</family>
+      <pointsize>11</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>CLOSE</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

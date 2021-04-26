@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>544</width>
+    <height>307</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#Form{
+background:red;
+}
+#headerFrame
+{
+background: black;
+border-radius: 30px;
+}
+
+#frame
+{
+background: red;
+border-radius: 30px;
+}
+#label_delete{
+color:white;
+}
+
+#label_delete_2{
+color:white;
+}
+
+#label_2{
+color:white;
+}
+
+#lineEdit_EID{
+border:none;
+background:transparent;
+color: white;
+border-bottom: 2px solid white;
+}
+
+#lineEdit_last_name{
+border:none;
+background:transparent;
+color: white;
+border-bottom: 2px solid white;
+}
+
+#lineEdit_address{
+border:none;
+background:transparent;
+color: white;
+border-bottom: 2px solid white;
+}
+
+#lineEdit_sector{
+border:none;
+background:transparent;
+color: white;
+border-bottom: 2px solid white;
+}
+
+#lineEdit_permisions{
+border:none;
+background:transparent;
+color: white;
+border-bottom: 2px solid white;
+}
+
+#lineEdit_username{
+border:none;
+background:transparent;
+color: white;
+border-bottom: 2px solid white;
+}
+
+#lineEdit_password{
+border:none;
+background:transparent;
+color: white;
+border-bottom: 2px solid white;
+}
+
+#pushButton_delete{
+border:2px solid white;
+background:transparent;
+color:white;
+border-radius: 30px;
+}
+
+#pushButton_delete:hover{
+border:2px solid white;
+background:white;
+color:red;
+}
+
+#push_Rigister{
+border:2px solid white;
+background:transparent;
+color:white;
+border-radius: 30px;
+}
+
+#push_Rigister:hover{
+border:2px solid white;
+background:white;
+color:red;
+}</string>
+  </property>
+  <widget class="QLabel" name="label_delete">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>90</y>
+     <width>281</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Aero</family>
+     <pointsize>14</pointsize>
+     <weight>50</weight>
+     <italic>true</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Please Enter ID of Employee</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_delete_2">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>30</y>
+     <width>351</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Aero</family>
+     <pointsize>18</pointsize>
+     <weight>50</weight>
+     <italic>true</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Delete employee informations</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_EID">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>140</y>
+     <width>311</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Aero</family>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <italic>true</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="placeholderText">
+    <string>enter employee ID</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_delete">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>210</y>
+     <width>181</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Aero</family>
+     <pointsize>14</pointsize>
+     <weight>50</weight>
+     <italic>true</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Delete</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
