@@ -40,21 +40,21 @@ color:white;
 color:white;
 }
 
-#lineEdit_Pname{
+#lineEdit_name{
 border:none;
 background:transparent;
 color: white;
 border-bottom: 2px solid white;
 }
 
-#lineEdit_ptype{
+#lineEdit_location{
 border:none;
 background:transparent;
 color: white;
 border-bottom: 2px solid white;
 }
 
-#lineEdit_pcode{
+#lineEdit_address{
 border:none;
 background:transparent;
 color: white;
@@ -82,14 +82,14 @@ color: white;
 border-bottom: 2px solid white;
 }
 
-#pushButton_saveP{
+#pushButton_saveSupp{
 border:2px solid white;
 background:transparent;
 color:white;
 border-radius: 30px;
 }
 
-#pushButton_saveP:hover{
+#pushButton_saveSupp:hover{
 border:2px solid white;
 background:white;
 color:red;
@@ -108,11 +108,11 @@ background:white;
 color:red;
 }</string>
   </property>
-  <widget class="QLineEdit" name="lineEdit_pcode">
+  <widget class="QLineEdit" name="lineEdit_name">
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>237</y>
+     <y>140</y>
      <width>421</width>
      <height>29</height>
     </rect>
@@ -141,14 +141,14 @@ selection-color: rgb(255, 255, 0);</string>
     <number>0</number>
    </property>
    <property name="placeholderText">
-    <string>code</string>
+    <string>name</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_pprice">
+  <widget class="QLineEdit" name="lineEdit_location">
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>413</y>
+     <y>210</y>
      <width>421</width>
      <height>29</height>
     </rect>
@@ -177,14 +177,14 @@ selection-color: rgb(255, 255, 0);</string>
     <number>0</number>
    </property>
    <property name="placeholderText">
-    <string>price</string>
+    <string>location</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_ptype">
+  <widget class="QLineEdit" name="lineEdit_address">
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>178</y>
+     <y>280</y>
      <width>421</width>
      <height>29</height>
     </rect>
@@ -213,10 +213,10 @@ selection-color: rgb(255, 255, 0);</string>
     <number>0</number>
    </property>
    <property name="placeholderText">
-    <string>type</string>
+    <string>address</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_saveP">
+  <widget class="QPushButton" name="pushButton_saveSupp">
    <property name="geometry">
     <rect>
      <x>30</x>
@@ -236,43 +236,7 @@ selection-color: rgb(255, 255, 0);</string>
     <string notr="true"/>
    </property>
    <property name="text">
-    <string>Save product</string>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_pquantity">
-   <property name="geometry">
-    <rect>
-     <x>30</x>
-     <y>296</y>
-     <width>421</width>
-     <height>29</height>
-    </rect>
-   </property>
-   <property name="sizePolicy">
-    <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
-     <horstretch>0</horstretch>
-     <verstretch>0</verstretch>
-    </sizepolicy>
-   </property>
-   <property name="font">
-    <font>
-     <family>Aero</family>
-     <pointsize>12</pointsize>
-     <italic>true</italic>
-    </font>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">color: rgb(255, 255, 255);
-selection-color: rgb(255, 255, 0);</string>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="cursorPosition">
-    <number>0</number>
-   </property>
-   <property name="placeholderText">
-    <string>quantity</string>
+    <string>Save supplier</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_register">
@@ -301,82 +265,10 @@ selection-color: rgb(255, 255, 0);</string>
     <string notr="true">color: rgb(255, 255, 255);</string>
    </property>
    <property name="text">
-    <string>Enter new product</string>
+    <string>Enter new supplier</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_Pname">
-   <property name="geometry">
-    <rect>
-     <x>30</x>
-     <y>120</y>
-     <width>421</width>
-     <height>27</height>
-    </rect>
-   </property>
-   <property name="sizePolicy">
-    <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
-     <horstretch>0</horstretch>
-     <verstretch>0</verstretch>
-    </sizepolicy>
-   </property>
-   <property name="font">
-    <font>
-     <family>Aero</family>
-     <pointsize>12</pointsize>
-     <italic>true</italic>
-    </font>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">color: rgb(255, 255, 255);
-selection-color: rgb(255, 255, 0);</string>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="cursorPosition">
-    <number>0</number>
-   </property>
-   <property name="placeholderText">
-    <string>Name</string>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_psupplier">
-   <property name="geometry">
-    <rect>
-     <x>30</x>
-     <y>354</y>
-     <width>421</width>
-     <height>29</height>
-    </rect>
-   </property>
-   <property name="sizePolicy">
-    <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
-     <horstretch>0</horstretch>
-     <verstretch>0</verstretch>
-    </sizepolicy>
-   </property>
-   <property name="font">
-    <font>
-     <family>Aero</family>
-     <pointsize>12</pointsize>
-     <italic>true</italic>
-    </font>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">color: rgb(255, 255, 255);
-selection-color: rgb(255, 255, 0);</string>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="cursorPosition">
-    <number>0</number>
-   </property>
-   <property name="placeholderText">
-    <string>supplier</string>
    </property>
   </widget>
  </widget>

@@ -40,7 +40,7 @@ color:white;
 color:white;
 }
 
-#lineEdit_EID{
+#lineEdit_PID{
 border:none;
 background:transparent;
 color: white;
@@ -134,7 +134,7 @@ color:red;
     </font>
    </property>
    <property name="text">
-    <string>Please Enter ID of Employee</string>
+    <string>Please Enter ID of Product</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_delete_2">
@@ -156,10 +156,10 @@ color:red;
     </font>
    </property>
    <property name="text">
-    <string>Delete employee informations</string>
+    <string>Delete product informations</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_EID">
+  <widget class="QLineEdit" name="lineEdit_PID">
    <property name="geometry">
     <rect>
      <x>120</x>
@@ -178,7 +178,7 @@ color:red;
     </font>
    </property>
    <property name="placeholderText">
-    <string>enter employee ID</string>
+    <string>enter product ID</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_delete">

@@ -36,6 +36,12 @@ background:red;
 border:red;
 }
 
+#Suppliers{
+color:red;
+background:red;
+border:red;
+}
+
 
 #headerFrame
 {
@@ -87,14 +93,14 @@ background:white;
 color:red;
 }
 
-#changeEmpInfo{
+#changeSupplierInfo{
 border:2px solid white;
 background:transparent;
 color:white;
 border-radius: 30px;
 }
 
-#changeEmpInfo:hover{
+#changeSupplierInfo:hover{
 border:2px solid white;
 background:white;
 color:red;
@@ -113,6 +119,19 @@ background:white;
 color:red;
 }
 
+#deleteSupInfo{
+border:2px solid white;
+background:transparent;
+color:white;
+border-radius: 30px;
+}
+
+#deleteSupInfo:hover{
+border:2px solid white;
+background:white;
+color:red;
+}
+
 #enterNewE{
 border:2px solid white;
 background:transparent;
@@ -121,6 +140,19 @@ border-radius: 30px;
 }
 
 #enterNewE:hover{
+border:2px solid white;
+background:white;
+color:red;
+}
+
+#enterNewSup{
+border:2px solid white;
+background:transparent;
+color:white;
+border-radius: 30px;
+}
+
+#enterNewSup:hover{
 border:2px solid white;
 background:white;
 color:red;
@@ -151,6 +183,18 @@ border:2px solid white;
 background:white;
 color:red;
 }
+#ispisBtn_3{
+border:2px solid white;
+background:transparent;
+color:white;
+border-radius: 30px;
+}
+
+#ispisBtn_3:hover{
+border:2px solid white;
+background:white;
+color:red;
+}
 
 #enterNewP_2{
 border:2px solid white;
@@ -164,6 +208,20 @@ border:2px solid white;
 background:white;
 color:red;
 }
+
+#changeEmpInfo{
+border:2px solid white;
+background:transparent;
+color:white;
+border-radius: 30px;
+}
+
+#changeEmpInfo:hover{
+border:2px solid white;
+background:white;
+color:red;
+}
+
 
 #changeProductInfo_2{
 border:2px solid white;
@@ -248,8 +306,9 @@ color:red;
       </property>
       <property name="font">
        <font>
-        <family>Aero</family>
-        <italic>true</italic>
+        <family>Arial</family>
+        <pointsize>14</pointsize>
+        <italic>false</italic>
        </font>
       </property>
       <property name="rowCount">
@@ -428,6 +487,18 @@ color:red;
         <width>1051</width>
         <height>491</height>
        </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>2</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>14</pointsize>
+       </font>
       </property>
       <property name="rowCount">
        <number>50</number>
@@ -610,10 +681,201 @@ color:red;
       </property>
      </widget>
     </widget>
-    <widget class="QWidget" name="tab">
+    <widget class="QWidget" name="Suppliers">
      <attribute name="title">
       <string>Suppliers</string>
      </attribute>
+     <widget class="QPushButton" name="ispisBtn_3">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>20</y>
+        <width>171</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Aero</family>
+        <pointsize>10</pointsize>
+        <weight>50</weight>
+        <italic>true</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>List Suppliers</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="deleteSupInfo">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>20</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Aero</family>
+        <pointsize>10</pointsize>
+        <weight>50</weight>
+        <italic>true</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Delete supplier info</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="enterNewSup">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>20</y>
+        <width>191</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Aero</family>
+        <pointsize>10</pointsize>
+        <weight>50</weight>
+        <italic>true</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Enter new supplier</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="changeSupplierInfo">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>20</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Aero</family>
+        <pointsize>10</pointsize>
+        <weight>50</weight>
+        <italic>true</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Change supplier info</string>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="tabela_ispis2_sup">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>100</y>
+        <width>1051</width>
+        <height>491</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>2</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="rowCount">
+       <number>50</number>
+      </property>
+      <property name="columnCount">
+       <number>4</number>
+      </property>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <row/>
+      <column>
+       <property name="text">
+        <string>ID</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Name</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Location</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Address</string>
+       </property>
+      </column>
+      <item row="0" column="1">
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+     </widget>
     </widget>
    </widget>
    <widget class="QPushButton" name="pushButton_close">
